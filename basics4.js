@@ -1,3 +1,5 @@
+//importing basics7 class object in basics4 class file
+const Person=require("./basics7");
 //block of code
 
 function addNummbers(a,b)
@@ -25,3 +27,6 @@ console.log(sumOfIntegers(10,20));
 2) let==> global level/ Block level {}
 3) const==> global level/ Block level {}
 */
+
+let person=new Person("Jyoti","More");
+console.log(person.fullName());
